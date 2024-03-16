@@ -13,15 +13,33 @@ const Navbar = () => {
         width={120}
       />
       <div className="flex gap-5 justify-center text-lg font-semibold text-stone-400">
-        <Link href="#about" className="hover:text-white">
+        <motion.a
+          whileHover={{
+            scale: 1.1,
+          }}
+          href="#about"
+          className="hover:text-white"
+        >
           About
-        </Link>
-        <Link href="#experience" className="hover:text-white">
+        </motion.a>
+        <motion.a
+          whileHover={{
+            scale: 1.1,
+          }}
+          href="#experience"
+          className="hover:text-white"
+        >
           Experience
-        </Link>
-        <Link href="#project" className="hover:text-white">
+        </motion.a>
+        <motion.a
+          whileHover={{
+            scale: 1.1,
+          }}
+          href="#project"
+          className="hover:text-white"
+        >
           Projects
-        </Link>
+        </motion.a>
       </div>
 
       <motion.a

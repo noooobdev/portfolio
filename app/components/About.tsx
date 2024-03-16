@@ -1,9 +1,8 @@
 "use client";
-import Image from "next/image";
 
 const About = () => {
   return (
-    <div id="about" className="py-10">
+    <div id="about" className="py-20 px-48">
       <h1 className="text-4xl font-semibold">About</h1>
       <p className="font-medium py-3 tracking-wide">
         Crafting intuitive user experiences. Proficient in HTML, CSS, and

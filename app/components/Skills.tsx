@@ -45,7 +45,7 @@ const Skills = () => {
     setHoveredSkill(null);
   };
   return (
-    <div className="flex flex-col justify-center items-center py-14">
+    <div className="flex flex-col justify-center items-center py-10 px-48">
       <h1 className="text-4xl font-semibold">Work On</h1>
 
       <div className=" grid grid-cols-6 gap-0 w-full p-6">

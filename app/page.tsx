@@ -9,13 +9,13 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="text-white p-2 h-full bg-stone-800 border-2  border-yellow-700">
+    <div className="text-white  h-full bg-stone-800 border-2  border-yellow-700">
       <Navbar />
-      <div className="px-32 pt-28">
+      <div className="">
         <Hero />
         <About />
-        <Experience />
         <Skills />
+        <Experience />
         <Projects />
         <Footer />
       </div>
