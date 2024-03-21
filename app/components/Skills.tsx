@@ -35,6 +35,7 @@ const Skills = () => {
     { id: 9, name: "Git", icon: FaGitAlt, color: "#F1502F" },
     { id: 10, name: "Postman", icon: SiPostman, color: "#ef5b25" },
     { id: 12, name: "Figma", icon: FaFigma, color: "#f24e1e" },
+    { id: 13, name: "React Native", icon: FaReact, color: "#61DBFB" },
   ];
 
   const handleMouseEnter = (skillId: any) => {

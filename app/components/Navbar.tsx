@@ -1,18 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <div className="flex p-3 items-center justify-between  px-28">
+    <motion.div
+      initial={{ x: -10, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      transition={{
+        duration: 1,
+        type: "spring",
+      }}
+      className="flex p-8 items-center justify-between px-28"
+    >
       <Image
         src={"/6-removebg-preview.png"}
         alt="Niraj Bohara"
         height={80}
         width={120}
       />
-      <div className="flex gap-5 justify-center text-lg font-semibold text-stone-400">
+      <div className="flex gap-5 justify-center items-center text-lg font-semibold text-stone-400 ">
         <motion.a
           whileHover={{
             scale: 1.1,
@@ -41,7 +49,6 @@ const Navbar = () => {
           Projects
         </motion.a>
       </div>
-
       <motion.a
         href="https://rxresu.me/nirajbohara10/niraj-bohara"
         target="_blank"
@@ -50,11 +57,11 @@ const Navbar = () => {
           y: -4,
         }}
         transition={{ duration: 0.2 }}
-        className="border-[#d4af37] border-2 px-3 py-1 rounded hover:bg-[#d4af37] "
+        className="border-[#d4af37] border-2 px-3 py-1 rounded hover:bg-[#d4af37] text-white "
       >
         Resumé
       </motion.a>
-    </div>
+    </motion.div>
   );
 };
 

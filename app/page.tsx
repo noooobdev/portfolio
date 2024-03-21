@@ -6,19 +6,21 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import ProgressBar from "./components/Progress-Bar/ProgressBar";
+import Navhero from "./components/Navhero";
 
 export default function Home() {
   return (
-    <div className="text-white  h-full bg-stone-800 border-2  border-yellow-700">
-      <Navbar />
-      <div className="">
-        <Hero />
+    <>
+      <div className="text-white  h-full  ">
+        <ProgressBar />
+        <Navhero />
         <About />
         <Skills />
         <Experience />
         <Projects />
         <Footer />
       </div>
-    </div>
+    </>
   );
 }
