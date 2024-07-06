@@ -16,7 +16,7 @@ const About = () => {
         <br />
         <br />
         Beyond coding, I enjoy hiking, photography, and a good book. Explore my
-        portfolio to see my work, and let's collaborate on something
+        portfolio to see my work, and let&apos;s collaborate on something
         extraordinary!
       </p>
     </div>
