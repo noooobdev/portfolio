@@ -30,12 +30,12 @@ const Skills = () => {
     { id: 5, name: "Next.js", icon: TbBrandNextjs, color: "black" },
     { id: 6, name: "Node.js", icon: FaNodeJs, color: "#68a063" },
     { id: 7, name: "Express.js", icon: SiExpress, color: "black" },
+    { id: 13, name: "React Native", icon: FaReact, color: "#61DBFB" },
     { id: 11, name: "Typescript", icon: BiLogoTypescript, color: "#007acc" },
     { id: 8, name: "Tailwind", icon: SiTailwindcss, color: "#3490dc" },
-    { id: 9, name: "Git", icon: FaGitAlt, color: "#F1502F" },
     { id: 10, name: "Postman", icon: SiPostman, color: "#ef5b25" },
+    { id: 9, name: "Git", icon: FaGitAlt, color: "#F1502F" },
     { id: 12, name: "Figma", icon: FaFigma, color: "#f24e1e" },
-    { id: 13, name: "React Native", icon: FaReact, color: "#61DBFB" },
   ];
 
   const handleMouseEnter = (skillId: any) => {
@@ -46,10 +46,10 @@ const Skills = () => {
     setHoveredSkill(null);
   };
   return (
-    <div className="flex flex-col justify-center items-center py-10 px-48">
+    <div className="flex flex-col justify-center items-center py-10 lg:px-48">
       <h1 className="text-4xl font-semibold">Work On</h1>
 
-      <div className=" grid grid-cols-6 gap-0 w-full p-6">
+      <div className=" grid grid-cols-3 lg:grid-cols-6 gap-0 w-full p-6">
         {skills?.map((skill) => (
           <div
             key={skill.id}

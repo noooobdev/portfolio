@@ -12,15 +12,16 @@ const Navbar = () => {
         duration: 1,
         type: "spring",
       }}
-      className="flex p-8 items-center justify-between px-28"
+      className="flex  px-3 p-8 items-center justify-between lg:px-28"
     >
       <Image
         src={"/6-removebg-preview.png"}
         alt="Niraj Bohara"
-        height={80}
-        width={120}
+        height={100}
+        width={100}
+        className="h-10 w-14 lg:h-300 lg:w-300"
       />
-      <div className="flex gap-5 justify-center items-center text-lg font-semibold text-stone-400 ">
+      <div className="flex gap-5 justify-center items-center lg:text-lg font-semibold text-stone-400 ">
         <motion.a
           whileHover={{
             scale: 1.1,
