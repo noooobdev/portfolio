@@ -48,7 +48,7 @@ const Hero = () => {
           }}
           className="text-2xl lg:text-4xl font-normal"
         >
-          Hi,I'm{"  "}
+          Hi,I{"'"}m{"  "}
         </motion.h1>
         <motion.h1
           style={{
