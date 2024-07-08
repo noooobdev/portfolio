@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: "Valorant",
+      name: "Game Tracker",
       image: "https://tecdn.b-cdn.net/img/new/fluid/city/113.webp",
     },
   ];
